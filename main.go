@@ -14,6 +14,6 @@ func main() {
 	// var l,j float64
 	// fmt.Scan(&l,&j)
 	// fmt.Println(task.RingS(l,j))
+    fmt.Println(task.Triangle(2,3))
 
-	
 }
