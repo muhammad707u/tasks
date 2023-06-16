@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"tasks/task"
 )
+
 func main() {
 	//fmt.Println(task.FindNum(23))
 
@@ -14,6 +15,10 @@ func main() {
 	// var l,j float64
 	// fmt.Scan(&l,&j)
 	// fmt.Println(task.RingS(l,j))
-    fmt.Println(task.Triangle(2,3))
 
+	// fmt.Println(task.Triangle(2,3))
+
+	var n1, n2, n3 int
+	fmt.Scan(&n1, &n2, &n3)
+	fmt.Println(task.NumTotal(n1, n2, n3))
 }
