@@ -18,7 +18,9 @@ func main() {
 
 	// fmt.Println(task.Triangle(2,3))
 
-	var n1, n2, n3 int
-	fmt.Scan(&n1, &n2, &n3)
-	fmt.Println(task.NumTotal(n1, n2, n3))
+	// var n1, n2, n3 int
+	// fmt.Scan(&n1, &n2, &n3)
+	// fmt.Println(task.NumTotal(n1, n2, n3))
+
+	fmt.Println(task.Calculator(6,3))
 }
