@@ -22,5 +22,7 @@ func main() {
 	// fmt.Scan(&n1, &n2, &n3)
 	// fmt.Println(task.NumTotal(n1, n2, n3))
 
-	fmt.Println(task.Calculator(6,3))
+	//fmt.Println(task.Calculator(6,3))
+
+	fmt.Println(task.Coordinate(2,-3))
 }
